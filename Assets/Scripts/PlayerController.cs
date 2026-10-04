@@ -8,11 +8,39 @@ public enum PlayerMode
     SideScroller
 }
 
+public enum Facing
+{
+    Left,
+    Right,
+    Up,
+    Down
+}
+
+public static class FacingExtensions
+{
+    public static Vector3 ToVector3(this Facing facing)
+    {
+        return facing switch
+        {
+            Facing.Right => new Vector3(1f, 0f, 0f),
+            Facing.Left => new Vector3(-1f, 0f, 0f),
+            Facing.Up => new Vector3(0f, 0f, 1f),
+            Facing.Down => new Vector3(0f, 0f, -1f),
+            _ => Vector3.zero
+        };
+    }
+}
+
+
 public class PlayerController : MonoBehaviour
 {
 
-    public PlayerMode playerMode = 0;
+    [Header("Player Properties")]
+    
     public int moveSpeed;
+    public float interactionDistance = 1.2f;
+   
+   [Header("References")]
 
     public Rigidbody rb;
     
@@ -20,10 +48,16 @@ public class PlayerController : MonoBehaviour
 
     public CameraSwap cameraSwap;
 
-    public LayerMask groundLayer;
-
     public Transform groundCheckTransform;
+
+    public LayerMask interactableLayer;
+
+
+    [Header("Automatic, don't edit")]
+    public PlayerMode playerMode = 0;
     private bool isGrounded;
+    public Facing facing = Facing.Right;
+    public InteractableObject currentInteractable;
 
     void OnEnable()
     {        
@@ -37,7 +71,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.01f, groundLayer);
+        isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.01f, -1);
 
         if (swapAction.WasPressedThisFrame())
         {
@@ -51,12 +85,13 @@ public class PlayerController : MonoBehaviour
                 rb.AddForce(Vector3.up * 5, ForceMode.Impulse);
             }
         }
+
+        CheckForInteractable();
     }
 
     void FixedUpdate()
     {
         MovePlayer();
-
     }
 
     private void SwapCamera()
@@ -76,14 +111,75 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 moveAmount = moveAction.ReadValue<Vector2>();
         Debug.Log("Move amount: " + moveAmount);
-        if(playerMode == 0)
+        if(playerMode == 0) // if in topdown
         {
             rb.linearVelocity = new Vector3(moveAmount.x * moveSpeed, rb.linearVelocity.y, moveAmount.y * moveSpeed);
+            
+            if(Mathf.Abs(moveAmount.x) > Mathf.Abs(moveAmount.y))
+            {
+                if(moveAmount.x > 0)
+                {
+                    facing = Facing.Right;
+                }
+                else if(moveAmount.x < 0)
+                {
+                    facing = Facing.Left;
+                }
+            }
+            else
+            {
+                if(moveAmount.y > 0)
+                {
+                    facing = Facing.Up;
+                }
+                else if(moveAmount.y < 0)
+                {
+                    facing = Facing.Down;
+                }
+            }
+        }
+        else // if in sidescroller
+        {
+            rb.linearVelocity = new Vector3(moveAmount.x * moveSpeed, rb.linearVelocity.y, rb.linearVelocity.z);
+            if(moveAmount.x > 0)
+            {
+                facing = Facing.Right;
+            }
+            else if(moveAmount.x < 0)
+            {
+                facing = Facing.Left;
+            }
+        }
+    }
+
+    void CheckForInteractable()
+    {
+        Ray ray = new Ray(rb.transform.position, facing.ToVector3());
+        RaycastHit hit;
+
+        Gizmos.color = Color.black;
+        
+
+        if (Physics.Raycast(ray, out hit, interactionDistance, interactableLayer))
+        {
+            if (hit.collider.TryGetComponent(out InteractableObject interactableObj))
+            {
+                interactableObj.EnableOutline();
+                currentInteractable = interactableObj;
+            }
         }
         else
         {
-            rb.linearVelocity = new Vector3(moveAmount.x * moveSpeed, rb.linearVelocity.y, rb.linearVelocity.z);
+            if (currentInteractable != null) currentInteractable.DisableOutline();
+            
+            currentInteractable = null;
         }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawRay(rb.transform.position, facing.ToVector3() * interactionDistance);
     }
 
 }
