@@ -8,6 +8,14 @@ public class InteractableObject : MonoBehaviour
         outline = GetComponent<Outline>();
         outline.enabled = false;
     }
+
+    public virtual void OnInteract(Vector3 playerFacing)
+    {
+        // This should be overriden by extended classes
+    } 
+
+
+
     public void EnableOutline() {outline.enabled = true;}
     public void DisableOutline() {outline.enabled = false;}
 

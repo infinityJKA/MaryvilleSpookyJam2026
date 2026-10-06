@@ -77,8 +77,11 @@ public class PlayerController : MonoBehaviour
         {
             SwapCamera();
         }
-
-        if(playerMode == PlayerMode.SideScroller)
+        else if(interactAction.WasPressedThisFrame() && currentInteractable != null)
+        {
+            currentInteractable.OnInteract(facing.ToVector3());
+        }
+        else if (playerMode == PlayerMode.SideScroller)
         {
             if (jumpAction.WasPressedThisFrame() && isGrounded)
             {
@@ -110,7 +113,7 @@ public class PlayerController : MonoBehaviour
     private void MovePlayer()
     {
         Vector2 moveAmount = moveAction.ReadValue<Vector2>();
-        Debug.Log("Move amount: " + moveAmount);
+        //Debug.Log("Move amount: " + moveAmount);
         if(playerMode == 0) // if in topdown
         {
             rb.linearVelocity = new Vector3(moveAmount.x * moveSpeed, rb.linearVelocity.y, moveAmount.y * moveSpeed);
