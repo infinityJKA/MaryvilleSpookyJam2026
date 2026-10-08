@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
     public float interactionDistance = 1.2f;
    
    [Header("References")]
+    public LevelUiCanvas levelUiCanvas;
 
     public Rigidbody rb;
     
@@ -53,7 +54,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask interactableLayer;
 
 
-    [Header("Automatic, don't edit")]
+    [Header("Automatic, don't edit in inspector")]
+    private int keys = 0;
     public PlayerMode playerMode = 0;
     private bool isGrounded;
     public Facing facing = Facing.Right;
@@ -95,6 +97,26 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         MovePlayer();
+    }
+
+    public int KeyCount() { return keys; }
+
+    public void AddKey()
+    {
+        levelUiCanvas.keysText.gameObject.SetActive(true);
+        keys++;
+        levelUiCanvas.keysText.text = "Keys: " + keys;
+    }
+
+    public void RemoveKey()
+    {
+        keys--;
+        if(keys <= 0)
+        {
+            keys = 0;
+            levelUiCanvas.keysText.gameObject.SetActive(false);
+        }
+        else levelUiCanvas.keysText.text = "Keys: " + keys;
     }
 
     private void SwapCamera()
