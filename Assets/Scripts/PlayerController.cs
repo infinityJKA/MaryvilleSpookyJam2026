@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
         rb.freezeRotation = true;
 
         moveAction = InputSystem.actions.FindAction("Move");
-        swapAction = InputSystem.actions.FindAction("Swap");
+        // swapAction = InputSystem.actions.FindAction("Swap");
         jumpAction = InputSystem.actions.FindAction("Jump");
         interactAction = InputSystem.actions.FindAction("Interact");
     }
@@ -75,13 +75,13 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(groundCheckTransform.position, 0.01f, -1);
 
-        if (swapAction.WasPressedThisFrame())
+        //if (swapAction.WasPressedThisFrame())
+        //{
+        //    SwapCamera();
+        //}
+        if(interactAction.WasPressedThisFrame() && currentInteractable != null)
         {
-            SwapCamera();
-        }
-        else if(interactAction.WasPressedThisFrame() && currentInteractable != null)
-        {
-            currentInteractable.OnInteract(facing.ToVector3());
+            currentInteractable.OnInteract(facing.ToVector3(), this);
         }
         else if (playerMode == PlayerMode.SideScroller)
         {
@@ -119,7 +119,7 @@ public class PlayerController : MonoBehaviour
         else levelUiCanvas.keysText.text = "Keys: " + keys;
     }
 
-    private void SwapCamera()
+    public void SwapCamera()
     {
         if(playerMode == 0)
         {

@@ -9,7 +9,7 @@ public class InteractableObject : MonoBehaviour
         outline.enabled = false;
     }
 
-    public virtual void OnInteract(Vector3 playerFacing)
+    public virtual void OnInteract(Vector3 playerFacing, PlayerController player)
     {
         // This should be overriden by extended classes
     } 

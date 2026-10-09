@@ -7,7 +7,7 @@ public class Pushable : InteractableObject
     [SerializeField] private float pushDuration = 0.25f;
 
 
-    public override void OnInteract(Vector3 playerFacing)
+    public override void OnInteract(Vector3 playerFacing, PlayerController player)
     {
         Push(playerFacing);
     }
