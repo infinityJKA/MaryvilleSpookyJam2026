@@ -1,6 +1,9 @@
+using System.Runtime.InteropServices.WindowsRuntime;
+using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public enum PlayerMode
 {
@@ -36,39 +39,46 @@ public class PlayerController : MonoBehaviour
 {
 
     [Header("Player Properties")]
-    
+
     public int moveSpeed;
     public float interactionDistance = 1.2f;
-   
-   [Header("References")]
+
+    [Header("References")]
     public LevelUiCanvas levelUiCanvas;
 
     public Rigidbody rb;
-    
-    private InputAction moveAction, swapAction, jumpAction, interactAction;
+
+    private InputAction moveAction, jumpAction, interactAction, restartAction;
 
     public CameraSwap cameraSwap;
 
     public Transform groundCheckTransform;
 
     public LayerMask interactableLayer;
+    public KeyTracker keyTracker;
 
 
     [Header("Automatic, don't edit in inspector")]
-    private int keys = 0;
+    private int keys = 0, keysCollected = 0;
     public PlayerMode playerMode = 0;
     private bool isGrounded;
     public Facing facing = Facing.Right;
     public InteractableObject currentInteractable;
 
     void OnEnable()
-    {        
+    {
         rb.freezeRotation = true;
 
         moveAction = InputSystem.actions.FindAction("Move");
         // swapAction = InputSystem.actions.FindAction("Swap");
         jumpAction = InputSystem.actions.FindAction("Jump");
         interactAction = InputSystem.actions.FindAction("Interact");
+        restartAction = InputSystem.actions.FindAction("Restart");
+    }
+
+    private void Start()
+    {
+        UpdateKeyText();
     }
 
     void Update()
@@ -79,7 +89,16 @@ public class PlayerController : MonoBehaviour
         //{
         //    SwapCamera();
         //}
-        if(interactAction.WasPressedThisFrame() && currentInteractable != null)
+
+        if (restartAction.WasPressedThisFrame() && keyTracker != null)
+        {
+            keyTracker.SaveKeyData();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            return;
+        }
+
+
+        if (interactAction.WasPressedThisFrame() && currentInteractable != null)
         {
             currentInteractable.OnInteract(facing.ToVector3(), this);
         }
@@ -100,23 +119,35 @@ public class PlayerController : MonoBehaviour
     }
 
     public int KeyCount() { return keys; }
+    public int KeysCollectedCount() { return keysCollected; }
+    public void SetKeys(int k) { keys = k; keysCollected = k; }
+
+    public void UpdateKeyText()
+    {
+        if (keys <= 0) levelUiCanvas.keysText.gameObject.SetActive(false);
+        else
+        {
+            levelUiCanvas.keysText.text = "Keys: " + keys;
+            levelUiCanvas.keysText.gameObject.SetActive(true);
+        }
+    }
 
     public void AddKey()
     {
-        levelUiCanvas.keysText.gameObject.SetActive(true);
         keys++;
-        levelUiCanvas.keysText.text = "Keys: " + keys;
+        keysCollected++;
+        UpdateKeyText();
     }
 
     public void RemoveKey()
     {
         keys--;
-        if(keys <= 0)
+        if (keys <= 0)
         {
             keys = 0;
-            levelUiCanvas.keysText.gameObject.SetActive(false);
+            UpdateKeyText();
         }
-        else levelUiCanvas.keysText.text = "Keys: " + keys;
+        else UpdateKeyText();
     }
 
     public void SwapCamera()
