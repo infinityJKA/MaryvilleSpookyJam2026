@@ -197,13 +197,27 @@ public class PlayerController : MonoBehaviour
         else // if in sidescroller
         {
             rb.linearVelocity = new Vector3(moveAmount.x * moveSpeed, rb.linearVelocity.y, rb.linearVelocity.z);
-            if(moveAmount.x > 0)
+            if(Mathf.Abs(moveAmount.x) > Mathf.Abs(moveAmount.y))
             {
-                facing = Facing.Right;
+                if(moveAmount.x > 0)
+                {
+                    facing = Facing.Right;
+                }
+                else if(moveAmount.x < 0)
+                {
+                    facing = Facing.Left;
+                }
             }
-            else if(moveAmount.x < 0)
+            else
             {
-                facing = Facing.Left;
+                if(moveAmount.y > 0)
+                {
+                    facing = Facing.Up;
+                }
+                else if(moveAmount.y < 0)
+                {
+                    facing = Facing.Down;
+                }
             }
         }
     }
