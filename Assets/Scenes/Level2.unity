@@ -188,6 +188,7 @@ GameObject:
   - component: {fileID: 140845686}
   - component: {fileID: 140845685}
   - component: {fileID: 140845684}
+  - component: {fileID: 140845688}
   m_Layer: 0
   m_Name: Floor (32)
   m_TagString: Untagged
@@ -288,6 +289,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &140845688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140845683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &196050926
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +317,7 @@ GameObject:
   - component: {fileID: 196050929}
   - component: {fileID: 196050928}
   - component: {fileID: 196050927}
+  - component: {fileID: 196050931}
   m_Layer: 0
   m_Name: Floor (7)
   m_TagString: Untagged
@@ -400,6 +418,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &196050931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196050926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &226524375
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,6 +446,7 @@ GameObject:
   - component: {fileID: 226524378}
   - component: {fileID: 226524377}
   - component: {fileID: 226524376}
+  - component: {fileID: 226524380}
   m_Layer: 0
   m_Name: Floor (4)
   m_TagString: Untagged
@@ -512,6 +547,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &226524380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226524375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &275769723
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +687,7 @@ GameObject:
   - component: {fileID: 315460509}
   - component: {fileID: 315460508}
   - component: {fileID: 315460507}
+  - component: {fileID: 315460511}
   m_Layer: 0
   m_Name: Floor (24)
   m_TagString: Untagged
@@ -736,6 +788,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &315460511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315460506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &320632014
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,6 +985,7 @@ GameObject:
   - component: {fileID: 335098823}
   - component: {fileID: 335098822}
   - component: {fileID: 335098821}
+  - component: {fileID: 335098825}
   m_Layer: 0
   m_Name: Floor (16)
   m_TagString: Untagged
@@ -1017,6 +1086,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &335098825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335098820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &403555566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1114,7 @@ GameObject:
   - component: {fileID: 403555569}
   - component: {fileID: 403555568}
   - component: {fileID: 403555567}
+  - component: {fileID: 403555571}
   m_Layer: 0
   m_Name: Floor (19)
   m_TagString: Untagged
@@ -1129,6 +1215,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &403555571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403555566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,6 +1370,7 @@ GameObject:
   - component: {fileID: 520509824}
   - component: {fileID: 520509823}
   - component: {fileID: 520509822}
+  - component: {fileID: 520509826}
   m_Layer: 0
   m_Name: Floor (11)
   m_TagString: Untagged
@@ -1368,6 +1471,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &520509826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520509821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &585974210
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,6 +1611,7 @@ GameObject:
   - component: {fileID: 612037213}
   - component: {fileID: 612037212}
   - component: {fileID: 612037211}
+  - component: {fileID: 612037215}
   m_Layer: 0
   m_Name: Floor (6)
   m_TagString: Untagged
@@ -1592,6 +1712,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &612037215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612037210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &663522642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1661,6 +1797,7 @@ GameObject:
   - component: {fileID: 692821179}
   - component: {fileID: 692821178}
   - component: {fileID: 692821177}
+  - component: {fileID: 692821181}
   m_Layer: 0
   m_Name: Main Floor Bottom
   m_TagString: Untagged
@@ -1761,6 +1898,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &692821181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692821176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: ce2ec969e0db38f4b884eab7a6e2af74, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &701538335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,6 +2038,7 @@ GameObject:
   - component: {fileID: 703385681}
   - component: {fileID: 703385680}
   - component: {fileID: 703385679}
+  - component: {fileID: 703385683}
   m_Layer: 0
   m_Name: Floor (15)
   m_TagString: Untagged
@@ -1985,6 +2139,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &703385683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703385678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &739328356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1997,6 +2167,7 @@ GameObject:
   - component: {fileID: 739328359}
   - component: {fileID: 739328358}
   - component: {fileID: 739328357}
+  - component: {fileID: 739328361}
   m_Layer: 0
   m_Name: Floor (3)
   m_TagString: Untagged
@@ -2097,6 +2268,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &739328361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739328356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &770341722
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,6 +2296,7 @@ GameObject:
   - component: {fileID: 770341725}
   - component: {fileID: 770341724}
   - component: {fileID: 770341723}
+  - component: {fileID: 770341727}
   m_Layer: 0
   m_Name: Floor (28)
   m_TagString: Untagged
@@ -2209,6 +2397,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &770341727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770341722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &778157297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2338,6 +2542,7 @@ GameObject:
   - component: {fileID: 886268507}
   - component: {fileID: 886268506}
   - component: {fileID: 886268505}
+  - component: {fileID: 886268509}
   m_Layer: 0
   m_Name: Floor (33)
   m_TagString: Untagged
@@ -2438,6 +2643,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &886268509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886268504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &906594821
 GameObject:
   m_ObjectHideFlags: 0
@@ -2450,6 +2671,7 @@ GameObject:
   - component: {fileID: 906594824}
   - component: {fileID: 906594823}
   - component: {fileID: 906594822}
+  - component: {fileID: 906594826}
   m_Layer: 0
   m_Name: Floor (20)
   m_TagString: Untagged
@@ -2550,6 +2772,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &906594826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906594821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &919966927
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,6 +2800,7 @@ GameObject:
   - component: {fileID: 919966930}
   - component: {fileID: 919966929}
   - component: {fileID: 919966928}
+  - component: {fileID: 919966932}
   m_Layer: 0
   m_Name: Floor (2)
   m_TagString: Untagged
@@ -2662,6 +2901,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &919966932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919966927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &970771310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2674,6 +2929,7 @@ GameObject:
   - component: {fileID: 970771313}
   - component: {fileID: 970771312}
   - component: {fileID: 970771311}
+  - component: {fileID: 970771315}
   m_Layer: 0
   m_Name: Floor (12)
   m_TagString: Untagged
@@ -2774,6 +3030,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &970771315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970771310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1045067235
 GameObject:
   m_ObjectHideFlags: 0
@@ -2786,6 +3058,7 @@ GameObject:
   - component: {fileID: 1045067238}
   - component: {fileID: 1045067237}
   - component: {fileID: 1045067236}
+  - component: {fileID: 1045067240}
   m_Layer: 0
   m_Name: Floor (5)
   m_TagString: Untagged
@@ -2886,6 +3159,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1045067240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045067235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1050817097
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,6 +3187,7 @@ GameObject:
   - component: {fileID: 1050817100}
   - component: {fileID: 1050817099}
   - component: {fileID: 1050817098}
+  - component: {fileID: 1050817102}
   m_Layer: 0
   m_Name: Floor (8)
   m_TagString: Untagged
@@ -2998,6 +3288,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1050817102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050817097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1114598692
 GameObject:
   m_ObjectHideFlags: 0
@@ -3122,6 +3428,7 @@ GameObject:
   - component: {fileID: 1150315342}
   - component: {fileID: 1150315341}
   - component: {fileID: 1150315340}
+  - component: {fileID: 1150315344}
   m_Layer: 0
   m_Name: Floor (34)
   m_TagString: Untagged
@@ -3222,6 +3529,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1150315344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150315339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1179460283
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,6 +3630,7 @@ GameObject:
   - component: {fileID: 1257314687}
   - component: {fileID: 1257314686}
   - component: {fileID: 1257314685}
+  - component: {fileID: 1257314689}
   m_Layer: 0
   m_Name: Floor (10)
   m_TagString: Untagged
@@ -3407,6 +3731,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1257314689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257314684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1270653640
 GameObject:
   m_ObjectHideFlags: 0
@@ -3419,6 +3759,7 @@ GameObject:
   - component: {fileID: 1270653643}
   - component: {fileID: 1270653642}
   - component: {fileID: 1270653641}
+  - component: {fileID: 1270653645}
   m_Layer: 0
   m_Name: Floor (29)
   m_TagString: Untagged
@@ -3519,6 +3860,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1270653645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270653640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1301659389
 GameObject:
   m_ObjectHideFlags: 0
@@ -3531,6 +3888,7 @@ GameObject:
   - component: {fileID: 1301659392}
   - component: {fileID: 1301659391}
   - component: {fileID: 1301659390}
+  - component: {fileID: 1301659394}
   m_Layer: 0
   m_Name: Floor (22)
   m_TagString: Untagged
@@ -3631,6 +3989,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1301659394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301659389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1340660231
 GameObject:
   m_ObjectHideFlags: 0
@@ -3643,6 +4017,7 @@ GameObject:
   - component: {fileID: 1340660234}
   - component: {fileID: 1340660233}
   - component: {fileID: 1340660232}
+  - component: {fileID: 1340660236}
   m_Layer: 0
   m_Name: Floor (31)
   m_TagString: Untagged
@@ -3743,6 +4118,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1340660236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340660231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1490143101
 GameObject:
   m_ObjectHideFlags: 0
@@ -3755,6 +4146,7 @@ GameObject:
   - component: {fileID: 1490143104}
   - component: {fileID: 1490143103}
   - component: {fileID: 1490143102}
+  - component: {fileID: 1490143106}
   m_Layer: 0
   m_Name: Floor (1)
   m_TagString: Untagged
@@ -3855,6 +4247,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1490143106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490143101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1549332309
 GameObject:
   m_ObjectHideFlags: 0
@@ -3867,6 +4275,7 @@ GameObject:
   - component: {fileID: 1549332312}
   - component: {fileID: 1549332311}
   - component: {fileID: 1549332310}
+  - component: {fileID: 1549332314}
   m_Layer: 0
   m_Name: Floor (13)
   m_TagString: Untagged
@@ -3967,6 +4376,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1549332314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549332309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1552060254
 GameObject:
   m_ObjectHideFlags: 0
@@ -4091,6 +4516,7 @@ GameObject:
   - component: {fileID: 1611051011}
   - component: {fileID: 1611051010}
   - component: {fileID: 1611051009}
+  - component: {fileID: 1611051013}
   m_Layer: 0
   m_Name: Floor (30)
   m_TagString: Untagged
@@ -4191,6 +4617,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1611051013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611051008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1635452854
 GameObject:
   m_ObjectHideFlags: 0
@@ -4315,6 +4757,7 @@ GameObject:
   - component: {fileID: 1668656931}
   - component: {fileID: 1668656930}
   - component: {fileID: 1668656929}
+  - component: {fileID: 1668656933}
   m_Layer: 0
   m_Name: Main Floor - Top
   m_TagString: Untagged
@@ -4415,6 +4858,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1668656933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668656928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1675276494
 GameObject:
   m_ObjectHideFlags: 0
@@ -4427,6 +4886,7 @@ GameObject:
   - component: {fileID: 1675276497}
   - component: {fileID: 1675276496}
   - component: {fileID: 1675276495}
+  - component: {fileID: 1675276499}
   m_Layer: 0
   m_Name: Floor (9)
   m_TagString: Untagged
@@ -4527,6 +4987,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1675276499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675276494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1675737218
 GameObject:
   m_ObjectHideFlags: 0
@@ -4539,6 +5015,7 @@ GameObject:
   - component: {fileID: 1675737221}
   - component: {fileID: 1675737220}
   - component: {fileID: 1675737219}
+  - component: {fileID: 1675737223}
   m_Layer: 0
   m_Name: Floor (25)
   m_TagString: Untagged
@@ -4639,6 +5116,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1675737223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675737218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &1680998361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4716,6 +5209,7 @@ GameObject:
   - component: {fileID: 1696964925}
   - component: {fileID: 1696964924}
   - component: {fileID: 1696964923}
+  - component: {fileID: 1696964927}
   m_Layer: 0
   m_Name: Floor (17)
   m_TagString: Untagged
@@ -4816,6 +5310,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1696964927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696964922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1793812342
 GameObject:
   m_ObjectHideFlags: 0
@@ -4828,6 +5338,7 @@ GameObject:
   - component: {fileID: 1793812345}
   - component: {fileID: 1793812344}
   - component: {fileID: 1793812343}
+  - component: {fileID: 1793812347}
   m_Layer: 0
   m_Name: Floor (26)
   m_TagString: Untagged
@@ -4928,6 +5439,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1793812347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793812342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: ce2ec969e0db38f4b884eab7a6e2af74, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1857981999
 GameObject:
   m_ObjectHideFlags: 0
@@ -5019,6 +5546,7 @@ GameObject:
   - component: {fileID: 1907922965}
   - component: {fileID: 1907922964}
   - component: {fileID: 1907922963}
+  - component: {fileID: 1907922967}
   m_Layer: 0
   m_Name: Floor (14)
   m_TagString: Untagged
@@ -5119,6 +5647,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1907922967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907922962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1982576455
 GameObject:
   m_ObjectHideFlags: 0
@@ -5131,6 +5675,7 @@ GameObject:
   - component: {fileID: 1982576458}
   - component: {fileID: 1982576457}
   - component: {fileID: 1982576456}
+  - component: {fileID: 1982576460}
   m_Layer: 0
   m_Name: Floor (27)
   m_TagString: Untagged
@@ -5231,6 +5776,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982576460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982576455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &2019086828
 GameObject:
   m_ObjectHideFlags: 0
@@ -5243,6 +5804,7 @@ GameObject:
   - component: {fileID: 2019086831}
   - component: {fileID: 2019086830}
   - component: {fileID: 2019086829}
+  - component: {fileID: 2019086833}
   m_Layer: 0
   m_Name: Floor (23)
   m_TagString: Untagged
@@ -5343,6 +5905,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2019086833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019086828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &2089161961
 GameObject:
   m_ObjectHideFlags: 0
@@ -5355,6 +5933,7 @@ GameObject:
   - component: {fileID: 2089161964}
   - component: {fileID: 2089161963}
   - component: {fileID: 2089161962}
+  - component: {fileID: 2089161966}
   m_Layer: 0
   m_Name: Floor (21)
   m_TagString: Untagged
@@ -5455,6 +6034,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1179460284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2089161966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089161961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &1105397693603175644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5757,6 +6352,10 @@ PrefabInstance:
       value: PlayerParent
       objectReference: {fileID: 0}
     - target: {fileID: 4541715610147208342, guid: 1424846a13694484294b430d139c4f1a, type: 3}
+      propertyPath: near clip plane
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541715610147208342, guid: 1424846a13694484294b430d139c4f1a, type: 3}
       propertyPath: orthographic size
       value: 9
       objectReference: {fileID: 0}
@@ -5831,6 +6430,10 @@ PrefabInstance:
     - target: {fileID: 7108636895705577347, guid: 1424846a13694484294b430d139c4f1a, type: 3}
       propertyPath: playerMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8464061365140625936, guid: 1424846a13694484294b430d139c4f1a, type: 3}
+      propertyPath: Lens.NearClipPlane
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
