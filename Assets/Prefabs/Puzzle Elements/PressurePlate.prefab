@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4308254898990733947}
   - component: {fileID: 4321643150923096472}
   - component: {fileID: 900905151478912415}
+  - component: {fileID: 2086747644741082918}
   m_Layer: 0
   m_Name: PressurePlate
   m_TagString: Untagged
@@ -127,3 +128,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PressurePlate
   door: {fileID: 0}
   currentCollisions: 0
+--- !u!114 &2086747644741082918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8592791684082601282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 10e494ea4034a8741a197f929f414a5a, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: 10e494ea4034a8741a197f929f414a5a, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
