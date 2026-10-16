@@ -44,6 +44,8 @@ public class PlayerController : MonoBehaviour
     public float interactionDistance = 1.2f;
 
     [Header("References")]
+    public Animator animController;
+
     public LevelUiCanvas levelUiCanvas;
 
     public Rigidbody rb;
@@ -116,6 +118,19 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         MovePlayer();
+
+        Vector2 moveAmount = moveAction.ReadValue<Vector2>();
+
+        if(moveAmount.magnitude > 0.1f || moveAmount.magnitude < -0.1f)
+        {
+            animController.SetBool("moving", true);
+            animController.SetFloat("x",moveAmount.x);
+            animController.SetFloat("y",moveAmount.y);
+        }
+        else
+        {
+            animController.SetBool("moving", false);
+        }
     }
 
     public int KeyCount() { return keys; }
@@ -180,6 +195,7 @@ public class PlayerController : MonoBehaviour
     private void MovePlayer()
     {
         Vector2 moveAmount = moveAction.ReadValue<Vector2>();
+
         //Debug.Log("Move amount: " + moveAmount);
         if(playerMode == 0) // if in topdown
         {

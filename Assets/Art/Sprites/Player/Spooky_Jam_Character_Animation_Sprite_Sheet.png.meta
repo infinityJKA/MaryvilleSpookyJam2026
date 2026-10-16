@@ -1,0 +1,1620 @@
+fileFormatVersion: 2
+guid: 5048041a1c685bf4f9c98e02f4060e2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -246577736764894769
+    second: Spooky_Jam_Character_Animation_Sprite_Sheet_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 256
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1db96dadaf39cf0800000000000000
+      internalID: -246577736764894769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 256
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dde50b57381d745933d4540c2d7df5
+      internalID: 1643529494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 256
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891d66fc0821abb45a4014b699edc732
+      internalID: 244032320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 256
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6ac1059ac20934dbcdb45d61c78898
+      internalID: 293040551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 256
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9c1d0b0390fbd41942b1c6e605aaee
+      internalID: -761474610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 256
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fe00745d5f16b40af68ad5a5ec9251
+      internalID: -62496480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 256
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6e0d0aebb19ce45a12a256073a4c2f
+      internalID: 928393314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 256
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43230c6e609bb34e8f8e34403f2b55e
+      internalID: -1483142687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 256
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2808179fa0eef9240a60aeed8d8d990d
+      internalID: 2124904680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 256
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59163df1e9647048952f8ee37f58da7
+      internalID: 1290507376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 220
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c816f4cefe09641a8352c9c3d03a81
+      internalID: -37813230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 220
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c47d21cfc91a6428e0ad5ee9bd9ced
+      internalID: -20594051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 220
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b37aed45ecfd8844b35b19fd5d6b0aa
+      internalID: 1830614262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 220
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b386d8078c3e4b94594aff89a49b24ea
+      internalID: 1216331148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 220
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e7da548377e1e4aa46208fed38bc50
+      internalID: -481877629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 220
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43545b8eb9dad88468747a6f0d38535d
+      internalID: 1765685217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 220
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf8fb526435a6042a57f28ab875bf11
+      internalID: 1802176187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 220
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281201b4c37b79f48b272979340e31b6
+      internalID: -1578092643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 220
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4050e226a4e994e4eb6876b57a590069
+      internalID: 1490014559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 220
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582686fcd73222144a3d5c1646578a2c
+      internalID: -470785300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 184
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859b88d8c9880f24bbaf84bc9a56daae
+      internalID: 1066927434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 184
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d90a3b81c8e82c438649a6132216e9b
+      internalID: 1146003776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 184
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b252885745d588c4eab26a45071ad72a
+      internalID: 718242221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 184
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d571d24d8999bb49baffa33fe8350e1
+      internalID: 1068941231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 184
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16105345f93a6364591222452c8e2302
+      internalID: 1155391249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 184
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99c3665676bc6248b52849e249d0eba
+      internalID: -118701782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 184
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e943398c7c5ebf489c8113f711ff8ae
+      internalID: 794885789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 184
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4737b19db15d80408d7c5547725ebe5
+      internalID: 1812871989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 148
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0603e5dca66d2c24fa9ec45f27f1c77c
+      internalID: 64814651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 148
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366661d1fb8c040489162813b1aa53d8
+      internalID: -1764208293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 148
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2807350d7f3db7642bbda079ccaf078c
+      internalID: -1092318413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 148
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca51a54ab2ef8f541a696cfa85797e0b
+      internalID: 648566874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 148
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c87a5f27a4bab4478156e608165d600
+      internalID: 1274227405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 148
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140f62b2eb5bc5a4ea17f7e3ab8febfa
+      internalID: -45899617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 148
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb2455e8f2cff64ead70372d2a44384
+      internalID: -727311398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 148
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed225559e251694449e5e2af98aa71e4
+      internalID: 1079223717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 112
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f56d0795463b9c4d909fab53ae0c934
+      internalID: 1974058981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 112
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5363ae8c1563b48b91f1878d9c82a9
+      internalID: 2002829822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 112
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3251948c4f0594438ff05b8298db853
+      internalID: -1550087435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 112
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1523558c3c0bfca4385672ee4d8262d2
+      internalID: -943589163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 112
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000fd7eb47e1a9b44ac600cd93739b54
+      internalID: -259181703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 112
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8479b9442ff362b48a52e9abbffcef4a
+      internalID: -1368112887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7aedfa6d71fce4db182215e5133031
+      internalID: -509288160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60b619b397d7ce4a9ba43ef926cebee
+      internalID: 2085359351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 76
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f572fa89501974093e67c84e771309
+      internalID: -2061562792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 76
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8cd21791f723d4ebf79d3d2e1835cd
+      internalID: 391350821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 76
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85b090ae68934c4eb1ebe43e8bc2716
+      internalID: -983530107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 76
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23a69f500bcb4e4aa1358bf3305c203
+      internalID: -357897501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 76
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd3bbe363f6fdd45908f711a8b57773
+      internalID: 571714531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 76
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350864bb926ca214aa31e422a8f98eb4
+      internalID: -1610201802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 76
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a9f130884920f41973e34118afb9be
+      internalID: 383194200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 76
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16658943923be84d80d81f7a1b8703f
+      internalID: -1388380025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 40
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5172895b45701bc4781ee5f5a618913d
+      internalID: -1909369820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 40
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d921ecb70aadad847a56d0b52b71b467
+      internalID: -350929656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 40
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecbafe5d8b52d84d8623ad61a8b92e9
+      internalID: 1575347467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 40
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f584f85b359bc40888f94fc3722ed5
+      internalID: -1311839003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 40
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45473df4ea6dc64284e6dcc221c979c
+      internalID: -700532560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 40
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefa37f1b15585d408bf15282ef33a69
+      internalID: 1531605763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 40
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d768ae7f5d5343449a154bd9722c126b
+      internalID: -1845665514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 40
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89057f78609a811498a4463fd9044ab4
+      internalID: -770188674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3afbf21d2c0844e96b5aabc4e27f73
+      internalID: -1070507252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e3985f44fdc5f428ac7d1ecd650b1a
+      internalID: 221885114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 4
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8672908d0846aa843a4232b8215b343b
+      internalID: -487158627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spooky_Jam_Character_Animation_Sprite_Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 4
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6cb7237ebcb184e9c4c4bcaa209a49
+      internalID: 1616460620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f1c819b2c7a725a409c415c029a31017
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Spooky_Jam_Character_Animation_Sprite_Sheet_0: -246577736764894769
+      Spooky_Jam_Character_Animation_Sprite_Sheet_1: 1643529494
+      Spooky_Jam_Character_Animation_Sprite_Sheet_10: -37813230
+      Spooky_Jam_Character_Animation_Sprite_Sheet_11: -20594051
+      Spooky_Jam_Character_Animation_Sprite_Sheet_12: 1830614262
+      Spooky_Jam_Character_Animation_Sprite_Sheet_13: 1216331148
+      Spooky_Jam_Character_Animation_Sprite_Sheet_14: -481877629
+      Spooky_Jam_Character_Animation_Sprite_Sheet_15: 1765685217
+      Spooky_Jam_Character_Animation_Sprite_Sheet_16: 1802176187
+      Spooky_Jam_Character_Animation_Sprite_Sheet_17: -1578092643
+      Spooky_Jam_Character_Animation_Sprite_Sheet_18: 1490014559
+      Spooky_Jam_Character_Animation_Sprite_Sheet_19: -470785300
+      Spooky_Jam_Character_Animation_Sprite_Sheet_2: 244032320
+      Spooky_Jam_Character_Animation_Sprite_Sheet_20: 1066927434
+      Spooky_Jam_Character_Animation_Sprite_Sheet_21: 1146003776
+      Spooky_Jam_Character_Animation_Sprite_Sheet_22: 718242221
+      Spooky_Jam_Character_Animation_Sprite_Sheet_23: 1068941231
+      Spooky_Jam_Character_Animation_Sprite_Sheet_24: 1155391249
+      Spooky_Jam_Character_Animation_Sprite_Sheet_25: -118701782
+      Spooky_Jam_Character_Animation_Sprite_Sheet_26: 794885789
+      Spooky_Jam_Character_Animation_Sprite_Sheet_27: 1812871989
+      Spooky_Jam_Character_Animation_Sprite_Sheet_28: 64814651
+      Spooky_Jam_Character_Animation_Sprite_Sheet_29: -1764208293
+      Spooky_Jam_Character_Animation_Sprite_Sheet_3: 293040551
+      Spooky_Jam_Character_Animation_Sprite_Sheet_30: -1092318413
+      Spooky_Jam_Character_Animation_Sprite_Sheet_31: 648566874
+      Spooky_Jam_Character_Animation_Sprite_Sheet_32: 1274227405
+      Spooky_Jam_Character_Animation_Sprite_Sheet_33: -45899617
+      Spooky_Jam_Character_Animation_Sprite_Sheet_34: -727311398
+      Spooky_Jam_Character_Animation_Sprite_Sheet_35: 1079223717
+      Spooky_Jam_Character_Animation_Sprite_Sheet_36: 1974058981
+      Spooky_Jam_Character_Animation_Sprite_Sheet_37: 2002829822
+      Spooky_Jam_Character_Animation_Sprite_Sheet_38: -1550087435
+      Spooky_Jam_Character_Animation_Sprite_Sheet_39: -943589163
+      Spooky_Jam_Character_Animation_Sprite_Sheet_4: -761474610
+      Spooky_Jam_Character_Animation_Sprite_Sheet_40: -259181703
+      Spooky_Jam_Character_Animation_Sprite_Sheet_41: -1368112887
+      Spooky_Jam_Character_Animation_Sprite_Sheet_42: -509288160
+      Spooky_Jam_Character_Animation_Sprite_Sheet_43: 2085359351
+      Spooky_Jam_Character_Animation_Sprite_Sheet_44: -2061562792
+      Spooky_Jam_Character_Animation_Sprite_Sheet_45: 391350821
+      Spooky_Jam_Character_Animation_Sprite_Sheet_46: -983530107
+      Spooky_Jam_Character_Animation_Sprite_Sheet_47: -357897501
+      Spooky_Jam_Character_Animation_Sprite_Sheet_48: 571714531
+      Spooky_Jam_Character_Animation_Sprite_Sheet_49: -1610201802
+      Spooky_Jam_Character_Animation_Sprite_Sheet_5: -62496480
+      Spooky_Jam_Character_Animation_Sprite_Sheet_50: 383194200
+      Spooky_Jam_Character_Animation_Sprite_Sheet_51: -1388380025
+      Spooky_Jam_Character_Animation_Sprite_Sheet_52: -1909369820
+      Spooky_Jam_Character_Animation_Sprite_Sheet_53: -350929656
+      Spooky_Jam_Character_Animation_Sprite_Sheet_54: 1575347467
+      Spooky_Jam_Character_Animation_Sprite_Sheet_55: -1311839003
+      Spooky_Jam_Character_Animation_Sprite_Sheet_56: -700532560
+      Spooky_Jam_Character_Animation_Sprite_Sheet_57: 1531605763
+      Spooky_Jam_Character_Animation_Sprite_Sheet_58: -1845665514
+      Spooky_Jam_Character_Animation_Sprite_Sheet_59: -770188674
+      Spooky_Jam_Character_Animation_Sprite_Sheet_6: 928393314
+      Spooky_Jam_Character_Animation_Sprite_Sheet_60: -1070507252
+      Spooky_Jam_Character_Animation_Sprite_Sheet_61: 221885114
+      Spooky_Jam_Character_Animation_Sprite_Sheet_62: -487158627
+      Spooky_Jam_Character_Animation_Sprite_Sheet_63: 1616460620
+      Spooky_Jam_Character_Animation_Sprite_Sheet_7: -1483142687
+      Spooky_Jam_Character_Animation_Sprite_Sheet_8: 2124904680
+      Spooky_Jam_Character_Animation_Sprite_Sheet_9: 1290507376
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
