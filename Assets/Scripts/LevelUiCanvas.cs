@@ -3,5 +3,6 @@ using TMPro;
 
 public class LevelUiCanvas : MonoBehaviour
 {
-    public TMP_Text keysText;
+    public GameObject keysParent;
+    public GameObject keyIconPrefab;
 }

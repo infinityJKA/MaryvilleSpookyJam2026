@@ -124,11 +124,25 @@ public class PlayerController : MonoBehaviour
 
     public void UpdateKeyText()
     {
-        if (keys <= 0) levelUiCanvas.keysText.gameObject.SetActive(false);
+        Debug.Log("UPDATING KEY TEXT... KEY COUNT IS "+keys);
+        // if(levelUiCanvas.keysParent.transform.childCount > 0 ){
+        for (int i = levelUiCanvas.keysParent.transform.childCount - 1; i >= 0; i--)
+        {
+            Debug.Log("Destroying... "+transform.GetChild(i).gameObject.name);
+            Destroy(levelUiCanvas.keysParent.transform.GetChild(i).gameObject);
+        }
+        // }
+
+        if (keys == 0){
+            Debug.Log("no keys");
+        }
         else
         {
-            levelUiCanvas.keysText.text = "Keys: " + keys;
-            levelUiCanvas.keysText.gameObject.SetActive(true);
+            Debug.Log("generating key icons...");
+            for(int i = 0; i < keys; i++)
+            {
+                Instantiate(levelUiCanvas.keyIconPrefab, levelUiCanvas.keysParent.transform); 
+            }
         }
     }
 
