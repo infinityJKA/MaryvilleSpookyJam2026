@@ -9,6 +9,7 @@ public class Key : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.transform.parent.gameObject.GetComponent<PlayerController>().AddKey();
+            AudioManager.Instance.PlaySfx("Key");
             gameObject.SetActive(false);
         }
     }

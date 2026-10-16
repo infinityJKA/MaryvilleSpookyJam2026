@@ -49,6 +49,7 @@ public class Door : MonoBehaviour
         }
         spriteRenderer.sprite = openSprite;
         isOpened = true;
+        AudioManager.Instance.PlaySfx("Door");
     }
 
     public void CloseDoor()

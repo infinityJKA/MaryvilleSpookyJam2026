@@ -21,6 +21,7 @@ public class Pushable : InteractableObject
         // Check if the path is clear before moving
         if (!Physics.Raycast(transform.position, pushDir, 1f, -1))
         {
+            AudioManager.Instance.PlaySfx("Push");
             StartCoroutine(SmoothMove(targetPosition));
         }
         else
