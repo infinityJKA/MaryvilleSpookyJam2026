@@ -3,7 +3,9 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     [SerializeField] private BoxCollider boxCollider;
-    [SerializeField] private MeshRenderer meshRenderer;
+    //[SerializeField] private MeshRenderer meshRenderer;
+    public Sprite closedSprite, openSprite;
+    public SpriteRenderer spriteRenderer;
     public bool isOpened = false;
     public bool canBeOpenedByKey;
 
@@ -22,14 +24,14 @@ public class Door : MonoBehaviour
     public void OpenDoor()
     {
         boxCollider.enabled = false;
-        meshRenderer.enabled = false;
+        spriteRenderer.sprite = openSprite;
         isOpened = true;
     }
 
     public void CloseDoor()
     {
         boxCollider.enabled = true;
-        meshRenderer.enabled = true;
+        spriteRenderer.sprite = closedSprite;
         isOpened = false;
     }
 
