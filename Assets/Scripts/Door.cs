@@ -1,7 +1,10 @@
+using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
+    public String sendToScene;
     [SerializeField] private BoxCollider boxCollider;
     //[SerializeField] private MeshRenderer meshRenderer;
     public Sprite closedSprite, openSprite;
@@ -11,19 +14,39 @@ public class Door : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (canBeOpenedByKey && !isOpened && collision.gameObject.CompareTag("Player"))
-        {
-            if (collision.gameObject.transform.parent.GetComponent<PlayerController>().KeyCount() > 0)
+        if(collision.gameObject.CompareTag("Player")){
+            if (canBeOpenedByKey && !isOpened)
             {
-                collision.gameObject.transform.parent.GetComponent<PlayerController>().RemoveKey();
-                OpenDoor();
+                if (collision.gameObject.transform.parent.GetComponent<PlayerController>().KeyCount() > 0)
+                {
+                    collision.gameObject.transform.parent.GetComponent<PlayerController>().RemoveKey();
+                    OpenDoor();
+                }
+            }
+
+            if(isOpened && sendToScene != "")
+            {
+                PlayerController p = collision.gameObject.transform.parent.GetComponent<PlayerController>();
+                
+                // reset collected key save data to be empty after completion if exist
+                if(p.keyTracker != null){
+                    if (p.keyTracker.isActiveAndEnabled == true)
+                    {
+                        p.keyTracker.SaveEmptyKeyData();    
+                    }
+                }
+
+                SceneManager.LoadScene(sendToScene);
             }
         }
+
     }
 
     public void OpenDoor()
     {
-        boxCollider.enabled = false;
+        if(sendToScene == "") {
+            boxCollider.enabled = false;
+        }
         spriteRenderer.sprite = openSprite;
         isOpened = true;
     }

@@ -62,6 +62,24 @@ public class KeyTracker : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+    public void SaveEmptyKeyData()
+    {
+        LevelSaveData saveData = new LevelSaveData();
+        saveData.levelName = levelName;
+        saveData.keyInfo = new List<KeyIdPairing>();
+        foreach (Key key in keysInLevel)
+        {
+            KeyIdPairing pairing = new KeyIdPairing();
+            pairing.keyID = key.keyID;
+            pairing.isCollected = false;
+            saveData.keyInfo.Add(pairing);
+        }
+        saveData.currentKeysHeld = playerController.KeysCollectedCount();
+        string json = JsonUtility.ToJson(saveData);
+        PlayerPrefs.SetString("LevelSave_" + levelName, json);
+        PlayerPrefs.Save();
+    }
+
 
 }
 

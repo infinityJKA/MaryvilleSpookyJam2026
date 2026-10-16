@@ -5555,6 +5555,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8885134882555636588, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
+      propertyPath: sendToScene
+      value: Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8885134882555636588, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
       propertyPath: canBeOpenedByKey
       value: 1
       objectReference: {fileID: 0}

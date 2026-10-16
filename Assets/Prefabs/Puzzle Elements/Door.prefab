@@ -126,7 +126,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d031a4b87f903409070b9b42fed231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
+  sendToScene: 
   boxCollider: {fileID: 8280631523572572908}
+  nextSceneCollider: {fileID: 0}
   closedSprite: {fileID: -7304804076524575986, guid: 143237f0ce1af9f40822bd1ca2224d20, type: 3}
   openSprite: {fileID: 1732634616, guid: 143237f0ce1af9f40822bd1ca2224d20, type: 3}
   spriteRenderer: {fileID: 7999011395490840407}
