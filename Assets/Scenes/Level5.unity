@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 1145571}
   - component: {fileID: 1145570}
   - component: {fileID: 1145569}
+  - component: {fileID: 1145572}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (38)
   m_TagString: Untagged
@@ -293,6 +294,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1145567}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1145572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &13150315
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +322,7 @@ GameObject:
   - component: {fileID: 13150319}
   - component: {fileID: 13150318}
   - component: {fileID: 13150317}
+  - component: {fileID: 13150320}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (24)
   m_TagString: Untagged
@@ -405,6 +423,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13150315}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &13150320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13150315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &25741739
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,6 +451,7 @@ GameObject:
   - component: {fileID: 25741743}
   - component: {fileID: 25741742}
   - component: {fileID: 25741741}
+  - component: {fileID: 25741744}
   m_Layer: 0
   m_Name: Puzzle 1 Floor (3)
   m_TagString: Untagged
@@ -517,6 +552,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25741739}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &25741744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25741739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: 09c758cc277518c4db86d45f7bb14638, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &34400371
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +580,7 @@ GameObject:
   - component: {fileID: 34400375}
   - component: {fileID: 34400374}
   - component: {fileID: 34400373}
+  - component: {fileID: 34400376}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (22)
   m_TagString: Untagged
@@ -629,6 +681,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34400371}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &34400376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34400371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &39342890
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +955,7 @@ GameObject:
   - component: {fileID: 65707358}
   - component: {fileID: 65707357}
   - component: {fileID: 65707356}
+  - component: {fileID: 65707359}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (31)
   m_TagString: Untagged
@@ -987,6 +1056,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65707354}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &65707359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65707354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &71330292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1685,6 +1770,7 @@ GameObject:
   - component: {fileID: 132925492}
   - component: {fileID: 132925491}
   - component: {fileID: 132925490}
+  - component: {fileID: 132925493}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (1)
   m_TagString: Untagged
@@ -1785,6 +1871,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132925488}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &132925493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132925488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: ce2ec969e0db38f4b884eab7a6e2af74, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &156395217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1797,6 +1899,7 @@ GameObject:
   - component: {fileID: 156395221}
   - component: {fileID: 156395220}
   - component: {fileID: 156395219}
+  - component: {fileID: 156395222}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (16)
   m_TagString: Untagged
@@ -1897,6 +2000,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156395217}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &156395222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156395217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &171147790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,6 +2588,7 @@ GameObject:
   - component: {fileID: 195741376}
   - component: {fileID: 195741375}
   - component: {fileID: 195741374}
+  - component: {fileID: 195741377}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (40)
   m_TagString: Untagged
@@ -2569,6 +2689,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195741372}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &195741377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195741372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &196792279
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,6 +2888,7 @@ GameObject:
   - component: {fileID: 230649191}
   - component: {fileID: 230649190}
   - component: {fileID: 230649189}
+  - component: {fileID: 230649192}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (3)
   m_TagString: Untagged
@@ -2852,6 +2989,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230649187}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &230649192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230649187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: ce2ec969e0db38f4b884eab7a6e2af74, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!4 &233284022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5180746942353760231, guid: 02a2ebc768197474f89130a846b49e18, type: 3}
@@ -4389,6 +4542,7 @@ GameObject:
   - component: {fileID: 354163269}
   - component: {fileID: 354163268}
   - component: {fileID: 354163267}
+  - component: {fileID: 354163270}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (32)
   m_TagString: Untagged
@@ -4489,6 +4643,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354163265}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &354163270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354163265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!4 &355149435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2343959945660687830, guid: e5779c6e519335c489a550d9fc162672, type: 3}
@@ -5346,6 +5516,7 @@ GameObject:
   - component: {fileID: 412372346}
   - component: {fileID: 412372345}
   - component: {fileID: 412372344}
+  - component: {fileID: 412372347}
   m_Layer: 0
   m_Name: Puzzle 1 Floor
   m_TagString: Untagged
@@ -5446,6 +5617,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412372342}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &412372347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412372342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &441791297
 GameObject:
   m_ObjectHideFlags: 0
@@ -5458,6 +5645,7 @@ GameObject:
   - component: {fileID: 441791301}
   - component: {fileID: 441791300}
   - component: {fileID: 441791299}
+  - component: {fileID: 441791302}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (13)
   m_TagString: Untagged
@@ -5558,6 +5746,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441791297}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &441791302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441791297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &471060458
 GameObject:
   m_ObjectHideFlags: 0
@@ -5862,6 +6066,7 @@ GameObject:
   - component: {fileID: 513531979}
   - component: {fileID: 513531978}
   - component: {fileID: 513531977}
+  - component: {fileID: 513531980}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (41)
   m_TagString: Untagged
@@ -5962,6 +6167,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513531975}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &513531980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513531975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &515740919
 GameObject:
   m_ObjectHideFlags: 0
@@ -6287,6 +6508,7 @@ GameObject:
   - component: {fileID: 615067011}
   - component: {fileID: 615067010}
   - component: {fileID: 615067009}
+  - component: {fileID: 615067012}
   m_Layer: 0
   m_Name: Puzzle 1 Floor (2)
   m_TagString: Untagged
@@ -6387,6 +6609,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615067007}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &615067012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615067007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &621802466
 GameObject:
   m_ObjectHideFlags: 0
@@ -6504,118 +6742,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2343959945660687830, guid: e5779c6e519335c489a550d9fc162672, type: 3}
   m_PrefabInstance: {fileID: 1907804335}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &639084272
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 639084273}
-  - component: {fileID: 639084276}
-  - component: {fileID: 639084275}
-  - component: {fileID: 639084274}
-  m_Layer: 0
-  m_Name: Puzzle 1 Walls (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &639084273
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639084272}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13, y: 0.5, z: 19.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 778891553}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &639084274
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639084272}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &639084275
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639084272}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &639084276
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639084272}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &648147908
 GameObject:
   m_ObjectHideFlags: 0
@@ -6869,6 +6995,7 @@ GameObject:
   - component: {fileID: 660197241}
   - component: {fileID: 660197240}
   - component: {fileID: 660197239}
+  - component: {fileID: 660197242}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (15)
   m_TagString: Untagged
@@ -6969,6 +7096,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660197237}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &660197242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660197237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &708876226
 GameObject:
   m_ObjectHideFlags: 0
@@ -7110,6 +7253,7 @@ GameObject:
   - component: {fileID: 713305020}
   - component: {fileID: 713305019}
   - component: {fileID: 713305018}
+  - component: {fileID: 713305021}
   m_Layer: 0
   m_Name: Puzzle 1 Floor (4)
   m_TagString: Untagged
@@ -7210,6 +7354,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 713305016}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &713305021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713305016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: 09c758cc277518c4db86d45f7bb14638, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!4 &715558397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5726422177633394958, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
@@ -7238,6 +7398,7 @@ GameObject:
   - component: {fileID: 718572384}
   - component: {fileID: 718572383}
   - component: {fileID: 718572382}
+  - component: {fileID: 718572385}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (19)
   m_TagString: Untagged
@@ -7338,6 +7499,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718572380}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &718572385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718572380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &731436731
 GameObject:
   m_ObjectHideFlags: 0
@@ -7703,6 +7880,7 @@ GameObject:
   - component: {fileID: 777647084}
   - component: {fileID: 777647083}
   - component: {fileID: 777647082}
+  - component: {fileID: 777647085}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (17)
   m_TagString: Untagged
@@ -7803,6 +7981,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777647080}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &777647085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777647080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &778891552
 GameObject:
   m_ObjectHideFlags: 0
@@ -7840,17 +8034,20 @@ Transform:
   - {fileID: 2111011094}
   - {fileID: 615067008}
   - {fileID: 1837348517}
+  - {fileID: 1657541975}
   - {fileID: 132925489}
   - {fileID: 1894530600}
   - {fileID: 1045930123}
   - {fileID: 195741373}
   - {fileID: 1265024423}
-  - {fileID: 1996961724}
   - {fileID: 2001495420}
   - {fileID: 1903513701}
   - {fileID: 2017301493}
   - {fileID: 1661372739}
+  - {fileID: 837263372}
+  - {fileID: 1757385465}
   - {fileID: 1412575744}
+  - {fileID: 1828807220}
   - {fileID: 660197238}
   - {fileID: 1645717677}
   - {fileID: 156395218}
@@ -7877,8 +8074,6 @@ Transform:
   - {fileID: 777647081}
   - {fileID: 718572381}
   - {fileID: 1947247175}
-  - {fileID: 1006335572}
-  - {fileID: 639084273}
   - {fileID: 1620073654}
   - {fileID: 230649188}
   - {fileID: 2146941800}
@@ -8038,6 +8233,7 @@ GameObject:
   - component: {fileID: 788109480}
   - component: {fileID: 788109479}
   - component: {fileID: 788109478}
+  - component: {fileID: 788109481}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (42)
   m_TagString: Untagged
@@ -8138,6 +8334,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788109476}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &788109481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788109476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!4 &790679702 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5726422177633394958, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
@@ -9214,6 +9426,135 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2343959945660687830, guid: e5779c6e519335c489a550d9fc162672, type: 3}
   m_PrefabInstance: {fileID: 352781286}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &837263371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 837263372}
+  - component: {fileID: 837263375}
+  - component: {fileID: 837263374}
+  - component: {fileID: 837263373}
+  - component: {fileID: 837263376}
+  m_Layer: 0
+  m_Name: Puzzle 1 Walls (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &837263372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837263371}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14, y: 0.5, z: 19}
+  m_LocalScale: {x: 1, y: 1, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 778891553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &837263373
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837263371}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &837263374
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837263371}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &837263375
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837263371}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &837263376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837263371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &845339587
 GameObject:
   m_ObjectHideFlags: 0
@@ -9435,6 +9776,7 @@ GameObject:
   - component: {fileID: 880849665}
   - component: {fileID: 880849664}
   - component: {fileID: 880849663}
+  - component: {fileID: 880849666}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (26)
   m_TagString: Untagged
@@ -9535,6 +9877,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880849661}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &880849666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880849661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &883143986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10264,6 +10622,7 @@ GameObject:
   - component: {fileID: 955530348}
   - component: {fileID: 955530347}
   - component: {fileID: 955530346}
+  - component: {fileID: 955530349}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (23)
   m_TagString: Untagged
@@ -10364,6 +10723,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955530344}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &955530349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955530344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &958291839
 GameObject:
   m_ObjectHideFlags: 0
@@ -10525,6 +10900,7 @@ GameObject:
   - component: {fileID: 981487774}
   - component: {fileID: 981487773}
   - component: {fileID: 981487772}
+  - component: {fileID: 981487775}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (27)
   m_TagString: Untagged
@@ -10625,6 +11001,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981487770}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &981487775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981487770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &984155782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10798,118 +11190,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003943315}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1006335571
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1006335572}
-  - component: {fileID: 1006335575}
-  - component: {fileID: 1006335574}
-  - component: {fileID: 1006335573}
-  m_Layer: 0
-  m_Name: Puzzle 1 Walls (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1006335572
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006335571}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11, y: 0.5, z: 19.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 778891553}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1006335573
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006335571}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1006335574
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006335571}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1006335575
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006335571}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1030791472
 GameObject:
@@ -11164,6 +11444,7 @@ GameObject:
   - component: {fileID: 1045930126}
   - component: {fileID: 1045930125}
   - component: {fileID: 1045930124}
+  - component: {fileID: 1045930127}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (21)
   m_TagString: Untagged
@@ -11264,6 +11545,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045930122}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1045930127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045930122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1074768460
 GameObject:
   m_ObjectHideFlags: 0
@@ -11623,6 +11920,7 @@ GameObject:
   - component: {fileID: 1100163047}
   - component: {fileID: 1100163046}
   - component: {fileID: 1100163045}
+  - component: {fileID: 1100163048}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (39)
   m_TagString: Untagged
@@ -11723,6 +12021,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100163043}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1100163048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100163043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1103161544
 GameObject:
   m_ObjectHideFlags: 0
@@ -12426,6 +12740,7 @@ GameObject:
   - component: {fileID: 1265024426}
   - component: {fileID: 1265024425}
   - component: {fileID: 1265024424}
+  - component: {fileID: 1265024427}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (44)
   m_TagString: Untagged
@@ -12442,8 +12757,8 @@ Transform:
   m_GameObject: {fileID: 1265024422}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8, y: 2, z: 32.5}
-  m_LocalScale: {x: 1, y: 4, z: 1}
+  m_LocalPosition: {x: -8, y: 2, z: 32}
+  m_LocalScale: {x: 1, y: 4, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 778891553}
@@ -12526,6 +12841,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265024422}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1265024427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265024422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: 09c758cc277518c4db86d45f7bb14638, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1265883424
 GameObject:
   m_ObjectHideFlags: 0
@@ -12538,6 +12869,7 @@ GameObject:
   - component: {fileID: 1265883428}
   - component: {fileID: 1265883427}
   - component: {fileID: 1265883426}
+  - component: {fileID: 1265883429}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (28)
   m_TagString: Untagged
@@ -12638,6 +12970,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265883424}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1265883429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265883424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1323374105
 GameObject:
   m_ObjectHideFlags: 0
@@ -13301,6 +13649,7 @@ GameObject:
   - component: {fileID: 1412575747}
   - component: {fileID: 1412575746}
   - component: {fileID: 1412575745}
+  - component: {fileID: 1412575748}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (8)
   m_TagString: Untagged
@@ -13317,8 +13666,8 @@ Transform:
   m_GameObject: {fileID: 1412575743}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 0.5, z: 23.5}
-  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_LocalPosition: {x: -11.5, y: 0.5, z: 23.5}
+  m_LocalScale: {x: 4, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 778891553}
@@ -13401,6 +13750,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412575743}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1412575748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412575743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1413761405
 GameObject:
   m_ObjectHideFlags: 0
@@ -13413,6 +13778,7 @@ GameObject:
   - component: {fileID: 1413761409}
   - component: {fileID: 1413761408}
   - component: {fileID: 1413761407}
+  - component: {fileID: 1413761410}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (33)
   m_TagString: Untagged
@@ -13513,6 +13879,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413761405}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1413761410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413761405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &1428332678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13582,6 +13964,7 @@ GameObject:
   - component: {fileID: 1428672826}
   - component: {fileID: 1428672825}
   - component: {fileID: 1428672824}
+  - component: {fileID: 1428672827}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (25)
   m_TagString: Untagged
@@ -13682,6 +14065,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428672822}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1428672827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428672822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1429287656
 GameObject:
   m_ObjectHideFlags: 0
@@ -13935,6 +14334,7 @@ GameObject:
   - component: {fileID: 1458100729}
   - component: {fileID: 1458100728}
   - component: {fileID: 1458100727}
+  - component: {fileID: 1458100730}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (35)
   m_TagString: Untagged
@@ -14035,6 +14435,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458100725}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1458100730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458100725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1465193919
 GameObject:
   m_ObjectHideFlags: 0
@@ -14646,6 +15062,7 @@ GameObject:
   - component: {fileID: 1556769708}
   - component: {fileID: 1556769707}
   - component: {fileID: 1556769706}
+  - component: {fileID: 1556769709}
   m_Layer: 0
   m_Name: Puzzle 1 Floor (6)
   m_TagString: Untagged
@@ -14746,6 +15163,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556769704}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1556769709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556769704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: 09c758cc277518c4db86d45f7bb14638, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1562613336
 GameObject:
   m_ObjectHideFlags: 0
@@ -15004,6 +15437,7 @@ GameObject:
   - component: {fileID: 1571067513}
   - component: {fileID: 1571067512}
   - component: {fileID: 1571067511}
+  - component: {fileID: 1571067514}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (43)
   m_TagString: Untagged
@@ -15020,8 +15454,8 @@ Transform:
   m_GameObject: {fileID: 1571067509}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 5.5, z: 37}
-  m_LocalScale: {x: 1, y: 5, z: 10}
+  m_LocalPosition: {x: -5, y: 5.5, z: 35.5}
+  m_LocalScale: {x: 1, y: 5, z: 13}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 778891553}
@@ -15104,6 +15538,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571067509}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1571067514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571067509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1573614681
 GameObject:
   m_ObjectHideFlags: 0
@@ -15805,6 +16255,7 @@ GameObject:
   - component: {fileID: 1620073657}
   - component: {fileID: 1620073656}
   - component: {fileID: 1620073655}
+  - component: {fileID: 1620073658}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (2)
   m_TagString: Untagged
@@ -15905,6 +16356,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620073653}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1620073658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620073653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1645717676
 GameObject:
   m_ObjectHideFlags: 0
@@ -15917,6 +16384,7 @@ GameObject:
   - component: {fileID: 1645717680}
   - component: {fileID: 1645717679}
   - component: {fileID: 1645717678}
+  - component: {fileID: 1645717681}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (18)
   m_TagString: Untagged
@@ -16017,6 +16485,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645717676}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1645717681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645717676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1655974167
 GameObject:
   m_ObjectHideFlags: 0
@@ -16029,6 +16513,7 @@ GameObject:
   - component: {fileID: 1655974171}
   - component: {fileID: 1655974170}
   - component: {fileID: 1655974169}
+  - component: {fileID: 1655974172}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (37)
   m_TagString: Untagged
@@ -16129,6 +16614,151 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655974167}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1655974172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655974167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
+--- !u!1 &1657541974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657541975}
+  - component: {fileID: 1657541979}
+  - component: {fileID: 1657541978}
+  - component: {fileID: 1657541977}
+  - component: {fileID: 1657541976}
+  m_Layer: 0
+  m_Name: Puzzle 1 Floor (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1657541975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657541974}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.5, y: -2.5, z: 32.5}
+  m_LocalScale: {x: 2, y: 5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 778891553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657541976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657541974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
+--- !u!65 &1657541977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657541974}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1657541978
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657541974}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1657541979
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657541974}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1661372738
 GameObject:
   m_ObjectHideFlags: 0
@@ -16141,6 +16771,7 @@ GameObject:
   - component: {fileID: 1661372742}
   - component: {fileID: 1661372741}
   - component: {fileID: 1661372740}
+  - component: {fileID: 1661372743}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (7)
   m_TagString: Untagged
@@ -16157,8 +16788,8 @@ Transform:
   m_GameObject: {fileID: 1661372738}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14, y: 0.5, z: 21.5}
-  m_LocalScale: {x: 1, y: 1, z: 5}
+  m_LocalPosition: {x: -14, y: 0.5, z: 23}
+  m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 778891553}
@@ -16241,6 +16872,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661372738}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1661372743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661372738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1665801382
 GameObject:
   m_ObjectHideFlags: 0
@@ -17297,6 +17944,7 @@ GameObject:
   - component: {fileID: 1745306516}
   - component: {fileID: 1745306515}
   - component: {fileID: 1745306514}
+  - component: {fileID: 1745306517}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (5)
   m_TagString: Untagged
@@ -17397,6 +18045,151 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745306512}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1745306517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745306512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: ce2ec969e0db38f4b884eab7a6e2af74, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
+--- !u!1 &1757385464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1757385465}
+  - component: {fileID: 1757385468}
+  - component: {fileID: 1757385467}
+  - component: {fileID: 1757385466}
+  - component: {fileID: 1757385469}
+  m_Layer: 0
+  m_Name: Puzzle 1 Walls (46)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1757385465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757385464}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14, y: 0.5, z: 15.5}
+  m_LocalScale: {x: 1, y: 1, z: 3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 778891553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1757385466
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757385464}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1757385467
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757385464}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1757385468
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757385464}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1757385469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757385464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &1764160007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18020,6 +18813,135 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
+--- !u!1 &1828807219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1828807220}
+  - component: {fileID: 1828807223}
+  - component: {fileID: 1828807222}
+  - component: {fileID: 1828807221}
+  - component: {fileID: 1828807224}
+  m_Layer: 0
+  m_Name: Puzzle 1 Walls (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1828807220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828807219}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.5, y: 0.5, z: 18.5}
+  m_LocalScale: {x: 4, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 778891553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1828807221
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828807219}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1828807222
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828807219}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1828807223
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828807219}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1828807224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828807219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1836025818
 GameObject:
   m_ObjectHideFlags: 0
@@ -18075,6 +18997,7 @@ GameObject:
   - component: {fileID: 1837348520}
   - component: {fileID: 1837348519}
   - component: {fileID: 1837348518}
+  - component: {fileID: 1837348521}
   m_Layer: 0
   m_Name: Puzzle 1 Floor (1)
   m_TagString: Untagged
@@ -18091,8 +19014,8 @@ Transform:
   m_GameObject: {fileID: 1837348516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: -2.5, z: 29}
-  m_LocalScale: {x: 3, y: 5, z: 8}
+  m_LocalPosition: {x: -6, y: -2.5, z: 28.5}
+  m_LocalScale: {x: 3, y: 5, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 778891553}
@@ -18175,6 +19098,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837348516}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1837348521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837348516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1840942126
 GameObject:
   m_ObjectHideFlags: 0
@@ -18681,6 +19620,7 @@ GameObject:
   - component: {fileID: 1894530603}
   - component: {fileID: 1894530602}
   - component: {fileID: 1894530601}
+  - component: {fileID: 1894530604}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (14)
   m_TagString: Untagged
@@ -18781,6 +19721,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894530599}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1894530604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894530599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: ce2ec969e0db38f4b884eab7a6e2af74, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1899637069
 GameObject:
   m_ObjectHideFlags: 0
@@ -18905,6 +19861,7 @@ GameObject:
   - component: {fileID: 1903513704}
   - component: {fileID: 1903513703}
   - component: {fileID: 1903513702}
+  - component: {fileID: 1903513705}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (12)
   m_TagString: Untagged
@@ -19005,6 +19962,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903513700}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1903513705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903513700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: ce2ec969e0db38f4b884eab7a6e2af74, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &1907804335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19194,6 +20167,7 @@ GameObject:
   - component: {fileID: 1931998429}
   - component: {fileID: 1931998428}
   - component: {fileID: 1931998427}
+  - component: {fileID: 1931998430}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (30)
   m_TagString: Untagged
@@ -19294,6 +20268,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931998425}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1931998430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931998425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1941040540
 GameObject:
   m_ObjectHideFlags: 0
@@ -19418,6 +20408,7 @@ GameObject:
   - component: {fileID: 1943088119}
   - component: {fileID: 1943088118}
   - component: {fileID: 1943088117}
+  - component: {fileID: 1943088121}
   m_Layer: 0
   m_Name: Path to Puzzle 1
   m_TagString: Untagged
@@ -19518,6 +20509,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 778891553}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1943088121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943088116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1947247174
 GameObject:
   m_ObjectHideFlags: 0
@@ -19530,6 +20537,7 @@ GameObject:
   - component: {fileID: 1947247178}
   - component: {fileID: 1947247177}
   - component: {fileID: 1947247176}
+  - component: {fileID: 1947247179}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (20)
   m_TagString: Untagged
@@ -19630,6 +20638,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947247174}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1947247179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947247174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &1948383457
 GameObject:
   m_ObjectHideFlags: 0
@@ -20112,118 +21136,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982421979}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1996961723
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1996961724}
-  - component: {fileID: 1996961727}
-  - component: {fileID: 1996961726}
-  - component: {fileID: 1996961725}
-  m_Layer: 0
-  m_Name: Puzzle 1 Walls (45)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1996961724
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996961723}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8, y: 3.5, z: 31.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 778891553}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1996961725
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996961723}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1996961726
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996961723}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1996961727
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996961723}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1998641450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20302,6 +21214,7 @@ GameObject:
   - component: {fileID: 2001495423}
   - component: {fileID: 2001495422}
   - component: {fileID: 2001495421}
+  - component: {fileID: 2001495424}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (11)
   m_TagString: Untagged
@@ -20402,6 +21315,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001495419}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2001495424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001495419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: ce2ec969e0db38f4b884eab7a6e2af74, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &2002894629
 GameObject:
   m_ObjectHideFlags: 0
@@ -20695,6 +21624,7 @@ GameObject:
   - component: {fileID: 2017301496}
   - component: {fileID: 2017301495}
   - component: {fileID: 2017301494}
+  - component: {fileID: 2017301497}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (6)
   m_TagString: Untagged
@@ -20711,8 +21641,8 @@ Transform:
   m_GameObject: {fileID: 2017301492}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: 0.5, z: 21.51}
-  m_LocalScale: {x: 1, y: 1, z: 5}
+  m_LocalPosition: {x: -9, y: 0.5, z: 21}
+  m_LocalScale: {x: 1, y: 1, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 778891553}
@@ -20795,6 +21725,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017301492}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2017301497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017301492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &2023566988
 GameObject:
   m_ObjectHideFlags: 0
@@ -21106,6 +22052,7 @@ GameObject:
   - component: {fileID: 2042635575}
   - component: {fileID: 2042635574}
   - component: {fileID: 2042635573}
+  - component: {fileID: 2042635576}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (36)
   m_TagString: Untagged
@@ -21206,6 +22153,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042635571}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2042635576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042635571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &2052245305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21437,6 +22400,7 @@ GameObject:
   - component: {fileID: 2093311884}
   - component: {fileID: 2093311883}
   - component: {fileID: 2093311882}
+  - component: {fileID: 2093311885}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (34)
   m_TagString: Untagged
@@ -21537,6 +22501,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093311880}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2093311885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093311880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &2101678662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21551,7 +22531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5726422177633394958, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12
+      value: -14
       objectReference: {fileID: 0}
     - target: {fileID: 5726422177633394958, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21559,7 +22539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5726422177633394958, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.500004
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5726422177633394958, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21734,6 +22714,7 @@ GameObject:
   - component: {fileID: 2111011097}
   - component: {fileID: 2111011096}
   - component: {fileID: 2111011095}
+  - component: {fileID: 2111011098}
   m_Layer: 0
   m_Name: Puzzle 1 Floor (5)
   m_TagString: Untagged
@@ -21834,6 +22815,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2111011093}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2111011098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111011093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: 09c758cc277518c4db86d45f7bb14638, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &2115044653
 GameObject:
   m_ObjectHideFlags: 0
@@ -21846,6 +22843,7 @@ GameObject:
   - component: {fileID: 2115044657}
   - component: {fileID: 2115044656}
   - component: {fileID: 2115044655}
+  - component: {fileID: 2115044658}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (29)
   m_TagString: Untagged
@@ -21946,6 +22944,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115044653}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2115044658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115044653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: 5907f565f6017fc428a80bfce4d238df, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1 &2135832164
 GameObject:
   m_ObjectHideFlags: 0
@@ -22081,6 +23095,7 @@ GameObject:
   - component: {fileID: 2146941803}
   - component: {fileID: 2146941802}
   - component: {fileID: 2146941801}
+  - component: {fileID: 2146941804}
   m_Layer: 0
   m_Name: Puzzle 1 Walls (4)
   m_TagString: Untagged
@@ -22181,6 +23196,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146941799}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2146941804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146941799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
+  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  topBottomMaterial: {fileID: 2100000, guid: ce2ec969e0db38f4b884eab7a6e2af74, type: 2}
+  wallTileSize: 1
+  topTileSize: 1
 --- !u!1001 &2625382939885167133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22195,7 +23226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3215915079291375418, guid: 2ace57fc70f4cbc429b609c3c361f399, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12
+      value: -11.5
       objectReference: {fileID: 0}
     - target: {fileID: 3215915079291375418, guid: 2ace57fc70f4cbc429b609c3c361f399, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22203,7 +23234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3215915079291375418, guid: 2ace57fc70f4cbc429b609c3c361f399, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.5
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 3215915079291375418, guid: 2ace57fc70f4cbc429b609c3c361f399, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22444,6 +23475,10 @@ PrefabInstance:
     - target: {fileID: 7059514288287077775, guid: 1424846a13694484294b430d139c4f1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108636895705577347, guid: 1424846a13694484294b430d139c4f1a, type: 3}
+      propertyPath: moveSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
