@@ -1,16 +1,9 @@
 using UnityEngine;
 
-// -------------------------------------------------------------------
-// -------------------------------------------------------------------
-// ---------------------------- IMPORTANT ----------------------------
-// i just copied and pasted this code from chatgpt just to test this
-// this PROBABLY WILL HAVE BIG ISSUES so we will need to redo this code to make sure it all works
-// -------------------------------------------------------------------
-// -------------------------------------------------------------------
-
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public class TexturedPrism : MonoBehaviour
 {
+    // Components
     public Material wallMaterial;
     public Material topBottomMaterial;
 
@@ -22,6 +15,7 @@ public class TexturedPrism : MonoBehaviour
         BuildPrism();
     }
 
+    // Build Prism lets us test to see how it looks in scene view
     [ContextMenu("Build Prism")]
     public void BuildPrism()
     {
