@@ -20836,7 +20836,6 @@ GameObject:
   - component: {fileID: 1943088118}
   - component: {fileID: 1943088117}
   - component: {fileID: 1943088121}
-  - component: {fileID: 1943088122}
   m_Layer: 0
   m_Name: Path to Puzzle 1
   m_TagString: Untagged
@@ -20951,22 +20950,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
   wallMaterial: {fileID: 2100000, guid: 2b3f4ca2a05b5dd449557a39ea985e37, type: 2}
   topBottomMaterial: {fileID: 2100000, guid: f372b78098943c448a61a2bb364e4fe1, type: 2}
-  wallTileSize: 1
-  topTileSize: 1
---- !u!114 &1943088122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943088116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
-  wallMaterial: {fileID: 0}
-  topBottomMaterial: {fileID: 0}
   wallTileSize: 1
   topTileSize: 1
 --- !u!1 &1947247174
@@ -21476,6 +21459,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 34407491613324279, guid: 2ace57fc70f4cbc429b609c3c361f399, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 352b32c7e548a94488dc14c1d28d51c0, type: 2}
     - target: {fileID: 438244374179606839, guid: 2ace57fc70f4cbc429b609c3c361f399, type: 3}
       propertyPath: m_Sprite
       value: 
