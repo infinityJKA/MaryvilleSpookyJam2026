@@ -76,6 +76,8 @@ public class PlayerController : MonoBehaviour
         jumpAction = InputSystem.actions.FindAction("Jump");
         interactAction = InputSystem.actions.FindAction("Interact");
         restartAction = InputSystem.actions.FindAction("Restart");
+
+        cameraSwap.SwapCameras((int)playerMode);
     }
 
     private void Start()
