@@ -2212,7 +2212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a00d5723abf6abc4f8d903bb56588a1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TexturedPrism
-  wallMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
+  wallMaterial: {fileID: 2100000, guid: 2b3f4ca2a05b5dd449557a39ea985e37, type: 2}
   topBottomMaterial: {fileID: 2100000, guid: bc9d3d79abba12f4098957c9807d6672, type: 2}
   wallTileSize: 1
   topTileSize: 1
@@ -2460,7 +2460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5180746942353760231, guid: 02a2ebc768197474f89130a846b49e18, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3
+      value: -3.01
       objectReference: {fileID: 0}
     - target: {fileID: 5180746942353760231, guid: 02a2ebc768197474f89130a846b49e18, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4424,6 +4424,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8885134882555636588, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
+      propertyPath: sendToScene
+      value: Level5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8885134882555636588, guid: 94f77250ef7a7c34cb6b30d0c5852734, type: 3}
       propertyPath: canBeOpenedByKey
       value: 1
       objectReference: {fileID: 0}
@@ -5114,7 +5118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5180746942353760231, guid: 02a2ebc768197474f89130a846b49e18, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: -4.01
       objectReference: {fileID: 0}
     - target: {fileID: 5180746942353760231, guid: 02a2ebc768197474f89130a846b49e18, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5410,6 +5414,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7059514288287077775, guid: 1424846a13694484294b430d139c4f1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7942328058151618565, guid: 1424846a13694484294b430d139c4f1a, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
